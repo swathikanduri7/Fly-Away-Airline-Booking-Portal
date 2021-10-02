@@ -1,0 +1,12 @@
+Create Database airline;
+
+use airline;
+
+CREATE TABLE flights (name VARCHAR(45), fromf VARCHAR(45),tof	 VARCHAR(45), datef	 VARCHAR(45),timef VARCHAR(45), price VARCHAR(45));
+
+CREATE TABLE admin (email VARCHAR(20), password VARCHAR(20));
+
+CREATE TABLE user (email VARCHAR(45), password VARCHAR(45),name VARCHAR(45), phno VARCHAR(45), adno VARCHAR(45));
+
+insert into admin(password,email) values('admin','admin@gmail.com');
+insert into admin(password,email) values('admin1','admin1@gmail.com');
